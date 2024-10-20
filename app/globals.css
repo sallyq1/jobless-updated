@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* add the code bellow */ 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+
+
+h8 {
+  color: white;
+}
+
+input {
+outline:none;
+border: none;
+background-color: rgba(24, 24, 24, 0);
+color:rgb(245, 245, 245);
+
+}
+
+input:focus {
+  outline:none;
+  }
+  
+.white-svg {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(323deg) brightness(102%) contrast(101%);
+}
+
+.black-icon {
+  filter: invert(0%) sepia(1%) saturate(7475%) hue-rotate(275deg) brightness(100%) contrast(100%);
+}
+
+
+input::placeholder
+{
+  color:rgb(0, 0, 0);
+  font-weight: 500;
+  
+
+}
+
+.dropdown {
+  margin-left: 10px;
+}
+
+.main-header {
+  font-size: 8rem;
+  background-color: red;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: -55px;
+ 
+}
+
+a:active {
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-underline-offset: -40px;
+  text-underline-offset: -43px;
+  transition: 5s;
+}
+
+
+li {
+  font-weight: 500;
+
+ 
+}
+
+ h8 
+ {
+  font-weight: 500;
+ font-size: 0.9rem;
+ }
+
+
+ h1 
+ {
+  font-weight: 700;
+  font-size: 2rem;
+ }
+
+ h2 
+ {
+  font-weight: 700;
+  font-size: 2rem;
+ }
+
+ h7{
+  font-weight: 700;
+  font-size:1.5rem
+ }
+
+
+ h4 
+{
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+h5 
+{
+  font-weight: 600;
+  font-size: 0.9rem;
+  
+}
+
+h6 
+{
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.version2 h6 {
+
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+
+
+
+/* 
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+*/
